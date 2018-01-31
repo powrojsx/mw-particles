@@ -80,4 +80,4 @@ class Particles {
     }
 }
 
-new Particles(document.getElementById('canvas'));
+(new Particles(document.getElementById('canvas')))();
