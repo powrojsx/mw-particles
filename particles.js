@@ -58,6 +58,7 @@ class Particles {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         
         for(let i = 0; i < this.particles.length; i++) {
+            
             this.particles[i].updateParticle();
             this.particles[i].drawParticle();
 
@@ -81,4 +82,4 @@ class Particles {
     }
 }
 
-(new Particles(document.getElementById('canvas')))();
+new Particles(document.getElementById('canvas'));
