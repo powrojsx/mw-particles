@@ -70,6 +70,7 @@ class Particles {
                 this.ctx.beginPath();
                 this.ctx.strokeStyle = "#ffffff";
                 this.ctx.lineWidth = 1;
+                this.ctx.globalAlpha = 0.6;
                 this.ctx.moveTo(this.particles[i].x, this.particles[i].y);
                 this.ctx.lineTo(this.particles[g].x, this.particles[g].y);
                 this.ctx.stroke();
